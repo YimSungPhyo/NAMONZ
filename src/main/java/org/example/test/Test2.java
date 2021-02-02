@@ -8,7 +8,6 @@ public class Test2 {
         Thread d= new Thread(new TestThread("thread4"));
         Thread e= new Thread(new TestThread("thread5"));
 
-        
         a.start();
         b.start();
         c.start();
